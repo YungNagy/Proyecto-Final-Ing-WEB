@@ -1,0 +1,29 @@
+#galeria .col-lg-4{
+    margin: 0;/*Nuestras columnas las adaptamos a que no tengan margenes y que tengan una separacion*/
+    padding: 25px;
+}
+
+#galeria img{
+    width:100%; /*Adaptamos las imagenes que esten ocupando el espacio del contenedor*/
+    height: 300px;
+
+}
+
+#galeria img:hover{/*Agregamos la parte de la animacion al ver cada imagen con un borde */
+    border: 5px solid rgb(0, 0, 0);
+}
+body{
+    font-size: 24px;
+    font-family: 'Century Gothic';
+    background-image: linear-gradient(to top, #fcfcfc 0%,#858585 100%);
+}
+h1{
+    margin-bottom: 2rem;
+    font-size: 3.8rem;
+}
+#map{
+    height: 100%;
+}
+.alinear-centro{
+    text-align: center;
+}

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!--Archivos de cabecera-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles2.css">
+<!--Titulo-->
+    <title>La fotografia Analogica</title>
+  </head>
+  <body>
+      
+    <header>
+        <div class="absolute">
+            <h1 style="color: white; font-size: 1100%;"  >Fotografía Analógica</h1>
+        </div>
+        <video onloadedmetadata="this.muted=true" autoplay loop>
+        <source src="fotovideo1.mp4" alt="Video1 fondo">
+        </video>
+        
+    </header>
+
+        
+
+        <!--BARRA DE NAVEGACION CON BOTONES FIJOS-->
+        <nav class="navegacion">
+            <a href="https://www.youtube.com/watch?v=5lllQFTqvKE&ab_channel=CarlosBaselga" title="Ver ahora tutoriales" tabindex="0" data-toggle="popover" data-trigger="hover"  data-content="Tutoriales que te pueden servir"><i class="bi bi-play-btn"></i>Tutoriales de foto</a>
+            <a href="Pagina_Ver1_FotografiaAn.html" tabindex="0" data-toggle="popover" data-trigger="hover" title="Conoce mas acerca de al fotografia" data-content="Mas informacion"><i class="bi bi-camera2"></i>&nbsp;Lo que no sabias</a>
+
+            <ul class="menu">
+                <li><a href="#"><i class="bi bi-plus-square-fill"></i>Mas acerca</a>
+                    <ul class="submenu">
+                        <li><a class="a-submenu" href="galeria.html"><i class="bi bi-camera"></i>Galeria de fotos</a></li>
+                        <li><a class="a-submenu" href="https://fotostar.mx/"><i class="bi bi-shop"></i>Tienda de cámaras</a></li>
+                    </ul>
+                </li>
+            </ul>
+                    </nav>
+        <!---BOTONES FLOTANTES-->
+    
+        <div class="navegacion-flotante">
+            <input type="checkbox" name="" id="btn-mas">
+                <div class="redes">
+                    <a href="https://www.facebook.com/groups/35filmphotography"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCgHJi_FdfoFGyRl_RYp361A"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/filmindreams/?hl=es"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="btn-mas">
+            <label for="btn-mas">
+                <div class="icon">
+                    <i class="bi bi-plus-circle"></i>
+                </div>
+            </label>
+        </div>
+    </div>
+<!--ALERTA-->
+        <div class="alert alert-success alert-dismissible fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Gracias por visitarnos!</strong> Aquí aprenderas mucho sobre fotografia.
+          </div>
+ <!--FIN DE ALERTA-->
+    
+    <!--INICIAMOS EL CONTENEDOR-->    
+        <div class="container shadow" >
+            <h1 class="alinear-centro">El proceso fotográfico</h2>
+            <p>
+                Llamamos Proceso fotográfico a todo el camino que recorremos desde que disparamos con 
+                la cámara de fotos hasta que tenemos la imagen en nuestras manos. En otras palabras,
+                 analizaremos paso a paso qué es exactamente hacer una fotografía, en su sentido más amplio y práctico.
+            </p>
+            <p>
+                El proceso fotográfico comienza con la toma de la foto. 
+                Para ello la imagen se ha tenido que formar previamente. 
+                Como ya vimos en la sección Luz y Color, la formación de la imagen es imposible sin la luz. 
+                Los objetos y sujetos emiten luz que la cámara capta una vez que pulsamos el disparador. 
+                Esta luz entra al cuerpo de la cámara a través de la lente u objetivo.
+            </p>
+    <!---CAROUSEL-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade alinear-centro carrusel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3 class="negritas">Cargamos nuestro rollo en la cámara</h3>
+                    <img class="img__" src="images/an1.jpg" alt="Analogica 1">
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="negritas"> Comenzamos a disparar</h3>
+                    <img class="img__" src="images/an2.jpg" alt="Analogica 2">
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="negritas"> Mandamos a revelar</h3>
+                    <img class="img__" src="images/an3.jpg" alt="Analogica 3">
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="negritas"> Obtenemos nuestras fotos</h3>
+                    <img class="img__" src="images/an4.jpg" alt="Analogica 4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span>Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span>Next</span>
+                </button>
+              </div>
+              <p>
+                La cantidad de luz que entra es controlada por el fotógrafo a través del diafragma y del obturador de la cámara.
+              </p>
+              <p>Una vez que el fotógrafo ha decidido, en función de su creatividad (y, más frecuentemente, en función de los datos del fotómetro), qué apertura de diafragma y qué velocidad de obturación usará, pulsa el disparador haciendo que el obturador se abra y exponga la película a la luz.
+                En la película se registra la imagen gracias a su emulsión. Esta imagen se forma en la película ya que la luz activa la emulsión de la película formada por minúsculos átomos de plata. Estos átomos emulsionados son lo que conocemos como Imagen latente.</p>
+                <h2>¿Cómo se revela un negativo?</h2>
+                <p>En fotografía analógica, para que esta imagen latente deje de serlo y se convierta en algo real necesitamos la ayuda del proceso de revelado del negativo.
+                    Aplicándole un líquido revelador al carrete expuesto y con la imagen latente formada conseguiremos dos cosas:</p>
+                    <ul>
+                        <li><i class="bi bi-camera">
+                            La transformación de los elementos químicos de la película y su conversión en pequeñas partículas de plata que formarán la imagen
+                        </i>
+                        </li>
+                        <li><i class="bi bi-camera2">
+                            Que la emulsión de la película deje de ser fotosensible y la imagen perdure en el carrete. Para esto, se le aplica al carrete otro producto llamado fijador.
+                        </i>
+                        </li>
+                    </ul>
+                    <div class="alinear-centro">
+                    <img src="https://www.fotonostra.com/fotografia/fotos/procesofoto3.jpg" align="center"  data-toggle="popover" data-trigger="hover" title="Negativos y Positivos de 35mm" data-content="35mm Film">
+                    </div>
+                    <p>En la película, la imagen tomada se crea en negativo. Esto significa que las partes del carrete que han sido expuestas a la luz variarán en tonos del blanco al negro en función del tono real del objeto y de la luz que emitan.</p>
+
+                       <p>Las partes que no lo han sido se quedarán transparentes.</p> 
+                        
+                        <p>Para que los tonos de la imagen vuelvan a corresponder con la realidad se someten al proceso de positivado y de ampliación en papel. Es aquí donde el proceso fotográfico termina.</p>
+                        
+                        
+                      <!--BOTON DE COLAPSO-->  
+                      <p>
+                          <button class="boton" onclick="move()"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-bs-toggle="popover" data-bs-trigger="hover" title="Ve las partes de una camara" data-bs-content="Mas informacion">
+                            Partes de una cámara
+                          </button>
+                      </p>
+                      <!-- Barra de progreso dinámica -->
+                  <div class="progress margin-t-b">
+                  <div id="myBar" class="progress-bar bg-black" style="width:0%;"> </div>
+                  </div>
+
+                  <!---COLLAPSE DE BOOTSTRAP-->
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      <div class="alinear-centro"><img src="https://www.fotonostra.com/fotografia/fotos/elementoscamara.jpg "></div>
+                      <p class="negritas">Asi suena una cámara</p>
+                      <audio src="sonido.mp3" controls></audio>
+                    </div>
+                  </div>
+
+                  <!--FORMULARIOS-->
+        <div class="contacto">
+          <h2 class="alinear-centro">Dejanos saber tus comentarios</h2>
+          <form class="formulario" action="#" method="POST">
+              
+              <div class="contenedor-campos">
+                  <div class="campo">
+                      <label>Nombre:</label>
+                      <input class="border" type="text" name="nombre" placeholder="Nombre" required>
+                  </div>
+                  <div class="campo w-100">
+                      <label>Correo:</label>
+                      <input class="border" type="mail" name="correo" placeholder="Mail">
+                  </div>
+                  <div class="campo w-100">
+                      <label>Mensaje:</label>
+                      <textarea class="border" name="mensaje"></textarea>
+                  </div>
+              </div><!--.contenedor-campos-->
+              <div class="enviar">
+                  <input class="boton" type="submit" value="Enviar" data-toggle="popover" data-trigger="hover" title="Envianos tus comentarios" data-content="Envianos" > 
+              </div>
+          </form>
+      </div>
+
+      <!---ANIMACION DE CAMARA-->
+      <div class="animacion" class="alinear-centro">
+        <img class="img-camara" src="camara.png" alt="camara" width="100px">
+    </div>
+
+    <!--BUSCADOR INTERNO DE GOOGLE-->
+    <p class="negritas">¿DESEAS BUSCAR ALGO ACERCA DE FOTOGRAFIA EN EL BUSCADOR?</p>
+    <form class="alinear-centro" method=get action="http://www.google.com/search" target="_blank">
+      <input type=search autocomplete="off" name="q" placeholder="Búsqueda" required/>
+      <button type="button" class="btn btn-dark" >Buscar</button>
+  </form>
+
+                </div><!--FIN DEL CONTENEDOR-->
+      <!--PIE DE PAGINA-->  
+              <footer>
+                  <div class="container">
+                      <h3>Pagina realizada por Alejandro Alemon Perez UPIITA</h2>
+                  </div>
+              </footer>
+  
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+   
+    <!--PROGRESS BAR SCRIPT-->
+    <script>
+        function move(){
+            var elem = document.getElementById("myBar");
+            var width = 0;
+            var id = setInterval(frame, 1);
+            function frame(){
+                if(width >= 100){
+                    clearInterval(id);
+                }else{
+                    width++;
+                    elem.style.width = width + '%';
+                }
+            }
+        }
+    </script>
+
+    <!--POPOVERS SIMPLES SCRIPT-->
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+      })
+  </script>
+
+
+     </body>
+</html>

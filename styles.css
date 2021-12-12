@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+@media(max-width: 700px){
+    body{
+        background-color: brown;
+    }
+@media(min-width: 700px){}
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    color: rgb(148, 146, 146);    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h2{
+    text-align: left;
+    color: rgb(255, 255, 255);    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+h3{
+    text-align: left;
+    color: rgb(255, 255, 255);    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 10px; /* Separamos la lista de la izquierda */
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    }
+    
+    li::before { /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\1F4F7"; /* Insertamos el marcador */
+    padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: white; /* Coloreamos la viñeta */
+    }
+    
+    a[href="https://www.vyorsa.com.mx/pelicula-fuji-proplus-ii-200.html"]{
+        color: green;
+    }
+    a[href="https://www.vyorsa.com.mx/pelicula-ilford-hp5-plus-135-36-iso-400.html"]{
+        color: green;
+    }
+    a[href="https://mx.urbanoutfitters.com/es-mx/product/lomography-lomochrome-metropolis-35mm-film/UO-56481872-000?color=yellow&size=one-size"]{
+        color: brown;
+    }
+    a[href="https://articulo.mercadolibre.com.mx/MLM-714119981-pelicula-film-proimage100-35mm-kodak-_JM#position=1&search_layout=stack&type=item&tracking_id=d7635567-8fcd-4f92-ad92-32756d6bbfda"]{
+        color: red;
+    }
+    table{
+        border: black;
+        border-style: dashed;
+    }
+    th{
+        border: gray;
+    }
+    td{
+        border: yellow;
+    }
+    
