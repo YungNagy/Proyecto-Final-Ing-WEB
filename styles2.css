@@ -1,5 +1,6 @@
+/*CAMBIOS DE LA PAGINA EN GENERAL*/
 html{
-    size: 80%;
+    size: 100%;
 
 }
 body{
@@ -11,6 +12,7 @@ h1{
     margin-bottom: 2rem;
     font-size: 3.8rem;
 }
+/*CAMBIOS EN EL HEADER*/
 header span{
     font-size: 2rem;
 }
@@ -23,7 +25,17 @@ header{
 header img{
     max-width: 100%;
 }
+body{
+    font-family: 'Century Gothic';
+}
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
 
+/*CAMBIOS EN LA BARRA DE NAVEGACION*/
 .navegacion{
     display: flex;
     justify-content: space-evenly;
@@ -58,7 +70,8 @@ nav a:hover{
     background-color: #ffffff;
     cursor: pointer;
 }
-/*Menús desplegables */
+
+/*CAMBIO EN MENU DESPLEGABLE*/
 .navegacion ul{
     list-style: none;
 }
@@ -92,7 +105,6 @@ nav a:hover{
     background-color: #ffffff; 
 }
 
-
 .menu li:hover .submenu{
     visibility: visible;
     opacity: 1;
@@ -103,15 +115,7 @@ nav a:hover{
     padding:0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Century Gothic';
-}
-header{
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-}
+/*CAMBIOS EN LOS VIDEOS*/
 video{
     width: 100%;
 }
@@ -126,11 +130,12 @@ video{
     justify-content: center;
     align-items: center;
 }
+/*CAMBIOS DEL FOOTER*/
 footer{
     background: black;
     color: white;
 }
-/*Botones flotantes*/
+/*BOTONES FLOTANTES*/
 #btn-mas{
     display: none;
    }
@@ -206,7 +211,8 @@ footer{
 ul{
     list-style: none;
 }
-/* Barras de progreso */
+
+/*BARRAS DE PROGRESO*/
 .bg-black{
     background-color: black;
 }
@@ -216,7 +222,7 @@ ul{
 .img-camara{
     margin: 2rem 2rem;
 }
-/* Animacion */
+/*ANIMACION DE CAMARA*/
 .animacion{
     animation-name: animar;
     animation-duration: 5s;
@@ -233,7 +239,7 @@ ul{
         margin-left: 0%;
     }
 }
-/* Formulario */
+/*FORMULARIO*/
 .contacto{
     margin: 2rem auto;
 }
@@ -245,11 +251,18 @@ ul{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
-@media (min-width:768px) {
-    .formulario {
-        max-width: 800px;
-        margin: 0 auto;
-    }
+
+/*CAMPOS DEL FORMULARIO*/
+.w-100{
+    flex: 0 0 100%;
+}
+.campo textarea {
+    height: 4rem;
+}
+
+.enviar {
+    display: flex;
+    justify-content: flex-end;
 }
 .contenedor-campos {
     display: flex;
@@ -261,6 +274,29 @@ ul{
     margin-bottom: 1rem;
     width: 100%;
 }
+.campo label {
+    color: var(--blanco);
+    font-weight: 700;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campo input[type="text"],
+.campo input[type="tel"],
+.campo input[type="mail"],
+.campo textarea {
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+}
+/*MEDIA PARA DISPOSITIVOS*/
+@media (min-width:768px) {
+    .formulario {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
 @media (min-width:480px) {
     .campo {
         display: flex;
@@ -272,26 +308,13 @@ ul{
         flex: 0 0 calc(50% - .5rem)
     }
 }
-.campo label {
-    color: var(--blanco);
-    font-weight: 700;
-    margin-bottom: .5rem;
-    display: block;
-}
+
 @media (min-width:480px) {
     .campo label {
         flex: 0 0 90px;
     }
 }
-.campo input[type="text"],
-.campo input[type="tel"],
-.campo input[type="mail"],
-.campo textarea {
-    width: 100%;
-    padding: .5rem;
-    border: none;
-    border-radius: .5rem;
-}
+
 @media (min-width: 768px) {
     :is(.campo) :is( 
         input[type="text"], 
@@ -301,17 +324,5 @@ ul{
         textarea ) {
         flex: 1;
     }
-}
-
-.w-100{
-    flex: 0 0 100%;
-}
-.campo textarea {
-    height: 4rem;
-}
-
-.enviar {
-    display: flex;
-    justify-content: flex-end;
 }
 
